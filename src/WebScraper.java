@@ -35,7 +35,7 @@ public class WebScraper {
         return counter;
     }
 
-    
+
     public static void main(String[] unused) {
         System.out.println(urlToString("http://erdani.com/tdpl/hamlet.txt"));
         System.out.println(count("http://erdani.com/tdpl/hamlet.txt"));
